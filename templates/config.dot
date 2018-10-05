@@ -1,0 +1,28 @@
+/*
+* User-specific configuration
+* IMPORTANT NOTES:
+*  Please ensure you do not interchange your username and password.
+*  Your username is the longer value: 36 digits, including hyphens
+*  Your password is the smaller value: 12 characters
+*/
+module.exports = {
+  workspaceId: '{{=it.workspaceId}}',
+  hasCamera: {{=it.hasCamera || true}},
+  credentials: {
+    assistant: {
+      username: '{{=it.assistantUsername}}',
+      password: '{{=it.assistantPassword}}',
+    },
+    speech_to_text: {
+      username: '{{=it.speechToTextUsername}}',
+      password: '{{=it.speechToTextPassword}}',
+    },
+    text_to_speech: {
+      username: '{{=it.textToSpeechUsername}}',
+      password: '{{=it.textToSpeechPassword}}',
+    },
+    visual_recognition: {
+      api_key: '{{=it.visualRecognitionKey}}',
+    },
+  },
+};
