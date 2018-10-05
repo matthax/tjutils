@@ -1,0 +1,28 @@
+{
+  "name": "tjutils",
+  "version": "1.0.0",
+  "description": "Simple utility scripts for the all-hands",
+  "main": "index.js",
+  "bin": {
+    "tj": "./index.js"
+  },
+  "scripts": {
+    "test": "test",
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/matthax/tjutils"
+  },
+  "keywords": [
+    "tj",
+    "utils",
+    "ebi"
+  ],
+  "author": "matt",
+  "license": "MIT",
+  "dependencies": {
+    "command-line-args": "^5.0.2",
+    "command-line-usage": "^5.0.5"
+  }
+}
