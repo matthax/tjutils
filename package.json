@@ -1,18 +1,19 @@
 {
-  "name": "tjutils",
-  "version": "1.0.0",
+  "name": "@mattbark/tjutils",
+  "version": "1.0.5",
   "description": "Simple utility scripts for the all-hands",
   "main": "index.js",
   "bin": {
     "tj": "./index.js"
   },
   "scripts": {
-    "test": "test",
-    "start": "node ./index.js"
+    "test": "echo hi!",
+    "start": "node ./index.js",
+    "postinstall": "node ./install.js"
   },
   "repository": {
     "type": "git",
-    "url": "github.com/matthax/tjutils"
+    "url": "https://github.com/matthax/tjutils.git"
   },
   "keywords": [
     "tj",

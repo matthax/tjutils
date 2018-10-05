@@ -1,10 +1,15 @@
 const fs = require('fs');
+// const path = require('path');
+// const os = require('os');
 
-fs.mkdir('settings', (error) => {
-    if (error) {
-        console.error(error);
-        process.exit(1);
-    } else {
-        process.exit(0);
-    }
+// const tj = path.join(__dirname, 'tj');
+// const settings = path.join(tj, 'settings');
+const dir = 'settings';
+
+fs.mkdir(dir, (error) => {
+  if (error) {
+    console.error('Could not create settings directory', error);
+  } else {
+    process.exit(0);
+  }
 });

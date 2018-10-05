@@ -8,22 +8,32 @@ const sections = [
   {
     header: 'Commands',
     content: [
-      '$ add -u matt -w my-workspace-id',
-      '$ switch -u matt',
+      '$ tj config',
+      '$ tj add',
+      '$ tj switch -u matt',
+      '$ tj install',
     ],
   },
   {
-    header: 'Add',
+    header: 'config',
+    content: 'Build a configuration for the TJBot',
+  },
+  {
+    header: 'switch',
     optionList: [
       {
         name: 'user',
-        description: 'The user to add (pick a simple name!)',
-      },
-      {
-        name: 'workspace',
-        description: 'The workspace ID',
+        description: 'Switch to this users workspace',
       },
     ],
+  },
+  {
+    header: 'add',
+    content: 'Add a workspace for the given user',
+  },
+  {
+    header: 'install',
+    content: 'Install the TJBot dependencies',
   },
 ];
 

@@ -1,6 +1,11 @@
 module.exports = [
   {
     type: 'input',
+    name: 'user',
+    message: 'Who are you? Your first name should suffice:',
+  },
+  {
+    type: 'input',
     name: 'workspaceId',
     message: 'What is your workspace id?',
   },
