@@ -1,6 +1,6 @@
 {
   "name": "@mattbark/tjutils",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Simple utility scripts for the all-hands",
   "main": "index.js",
   "bin": {
