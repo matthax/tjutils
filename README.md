@@ -1,13 +1,32 @@
 ### Helpful utilities for the TJBOT
 
+Multiple users? Install the command line tool:
+
+`npm install -g @mattbark/tjutils`
+
+One and done? Use npx.
+
+`npx @mattbark/tjutils config`
+
 #### Commands
 ```
-  $ add
-  $ switch -u matt
-  $ install
+  $ tj config
+  $ tj add
+  $ tj switch -u matt
+  $ tj install
 ```
 ---
-##### Switch
-```
-  --user    The user to whose workspace will be switched to
-```
+##### config
+
+`  Build a configuration for the TJBot`
+
+##### switch
+
+`  --user    Switch to this users workspace`
+
+##### add
+
+`  Add a workspace for the given user`
+
+##### install
+`  Install the TJBot dependencies`
