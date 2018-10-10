@@ -22,7 +22,7 @@ module.exports = {
       password: '{{=it.textToSpeechPassword}}',
     },
     visual_recognition: {
-      api_key: '{{=it.visualRecognitionKey}}',
+      apikey: '{{=it.visualRecognitionKey}}',
     },
   },
 };
